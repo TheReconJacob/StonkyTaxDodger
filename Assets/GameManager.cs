@@ -27,4 +27,9 @@ public class GameManager : MonoBehaviour
         stonksFace.transform.position = stonksPosition;
         stonksFace.SetActive(true);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

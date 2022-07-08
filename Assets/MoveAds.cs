@@ -5,18 +5,22 @@ using UnityEngine;
 public class MoveAds : MonoBehaviour
 {
 
-    public float speed = 0.5f;
+    public float speed = 2f;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(gameObject.activeInHierarchy)
         {
             transform.position += Vector3.left * speed * Time.fixedDeltaTime;
-            if(Time.timeScale == 0)
-            {
-                gameObject.SetActive(false);
-            }
+        }
+    }
+
+    void Update()
+    {
+        if(Time.timeScale == 0)
+        {
+            gameObject.SetActive(false);
         }
     }
 
