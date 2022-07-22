@@ -36,12 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\AddScore.cs" />
-     <Compile Include="Assets\GameManager.cs" />
-     <Compile Include="Assets\MoveAds.cs" />
-     <Compile Include="Assets\UpdateScore.cs" />
-     <Compile Include="Assets\FlyingStonk.cs" />
-     <Compile Include="Assets\ObstaclePooler.cs" />
+     <Compile Include="Assets\Scripts\AddScore.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\UpdateScore.cs" />
+     <Compile Include="Assets\Scripts\BackgroundScroller.cs" />
+     <Compile Include="Assets\Scripts\FlyingStonk.cs" />
+     <Compile Include="Assets\Scripts\ObstaclePooler.cs" />
+     <Compile Include="Assets\Scripts\AdsManager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
