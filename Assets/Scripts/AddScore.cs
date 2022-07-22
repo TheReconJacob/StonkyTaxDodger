@@ -6,6 +6,6 @@ public class AddScore : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D collision)
     {
-        UpdateScore.score++;
+        UpdateScoreAndTax.score++;
     }
 }
