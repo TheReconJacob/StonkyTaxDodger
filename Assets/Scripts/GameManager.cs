@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public DreamloLeaderBoard leaderBoard;
+    public LeaderBoardDisplay leaderBoardDisplay;
     public GameObject stonksFace;
     private Vector3 stonksPosition;
     public AudioClip stonkSound;
@@ -31,6 +33,8 @@ public class GameManager : MonoBehaviour
         {
             audioSource.PlayOneShot(deathSound, 2f);
             audioSource.PlayOneShot(impactSound, 4f);
+            leaderBoard.AddScore("player",UpdateScoreAndTax.score);
+
         }
         backgroundScroller.isGamePlaying(false);
         MenuCanvas.gameObject.SetActive(true);

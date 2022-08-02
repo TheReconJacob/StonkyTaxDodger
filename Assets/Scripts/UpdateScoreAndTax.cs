@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UpdateScoreAndTax : MonoBehaviour
 {
-    public static float score;
+    public static int score;
     public static float tax;
     public static bool isDead = false;
     public Text taxText;
