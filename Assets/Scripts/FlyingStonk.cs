@@ -28,6 +28,6 @@ public class FlyingStonk : MonoBehaviour
     void OnCollisionEnter2D (Collision2D collision)
     {
         UpdateScoreAndTax.isDead = true;
-        gameManager.ShowMenuScreen(true);
+        gameManager.ShowSubmitScreen();
     }
 }
