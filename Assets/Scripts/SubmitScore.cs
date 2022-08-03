@@ -10,6 +10,9 @@ public class SubmitScore : MonoBehaviour
 
     public void SubmitUserScore()
     {
-        leaderBoard.AddScore(input.text,UpdateScoreAndTax.score);
+        if(input.text != "")
+        {
+            leaderBoard.AddScore(input.text,UpdateScoreAndTax.score);
+        }
     }
 }

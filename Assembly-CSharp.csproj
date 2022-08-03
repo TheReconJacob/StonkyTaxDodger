@@ -42,11 +42,12 @@
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\dreamlo\LeaderBoardDisplay.cs" />
      <Compile Include="Assets\dreamlo\dreamloPromoCode.cs" />
+     <Compile Include="Assets\Scripts\SubmitScore.cs" />
      <Compile Include="Assets\dreamlo\DreamloLeaderBoard.cs" />
      <Compile Include="Assets\Scripts\BackgroundScroller.cs" />
      <Compile Include="Assets\Scripts\FlyingStonk.cs" />
      <Compile Include="Assets\Scripts\ObstaclePooler.cs" />
-     <Compile Include="Assets\Scripts\SubmitScore.cs" />
+     <Compile Include="Assets\Scripts\CharacterSelect.cs" />
      <None Include="Assets\dreamlo\README_FIRST.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
