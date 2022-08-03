@@ -19,7 +19,7 @@ public class BackgroundScroller : MonoBehaviour
     {
         if (gamePlaying)
         {
-            actualScrollSpeed = scrollSpeed / 100;
+            actualScrollSpeed = scrollSpeed / 10;
         }
         else
         {
@@ -27,7 +27,7 @@ public class BackgroundScroller : MonoBehaviour
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
         background.uvRect = new Rect(background.uvRect.position + new Vector2(actualScrollSpeed, 0) * Time.fixedDeltaTime, background.uvRect.size);
     }
