@@ -9,7 +9,7 @@ public class UpdateScoreAndTax : MonoBehaviour
     public static float tax;
     public static bool isDead = false;
     public Text taxText;
-    private int startingTax = 5000;
+    private float startingTax = 5000;
     private Text scoreText;
     
     void Awake()
@@ -36,20 +36,21 @@ public class UpdateScoreAndTax : MonoBehaviour
             taxText.gameObject.SetActive(true);
             if(score > 100)
             {
-                tax -= score / 2;
+                tax -= ((float) score) / 2;
             }
             else if(score > 50)
             {
-                tax -= score / 3;
+                tax -= ((float) score) / 3;
             }
             else if(score > 10)
             {
-                tax -= score / 4;
+                tax -= ((float) score) / 4;
             }
             else
             {
-                tax -= score / 5;
+                tax -= ((float) score) / 5;
             }
+
             taxText.text = "Tax left to pay: £" + tax.ToString("F2");
             isDead = false;
         }
