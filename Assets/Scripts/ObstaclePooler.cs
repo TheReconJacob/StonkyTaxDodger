@@ -22,7 +22,7 @@ public class ObstaclePooler : MonoBehaviour
             tmp.SetActive(false);
             pooledObjects.Add(tmp);
         }
-        InvokeRepeating("SpawnObject", 0f, maxTime);
+        InvokeRepeating("EnableObject", 0f, maxTime);
     }
 
     public GameObject GetPooledObject()
@@ -37,7 +37,7 @@ public class ObstaclePooler : MonoBehaviour
         return null;
     }
 
-    void SpawnObject()
+    void EnableObject()
     {
         GameObject tmp = GetPooledObject();
         if(tmp != null)
