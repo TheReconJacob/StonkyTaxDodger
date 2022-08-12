@@ -4804,6 +4804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   taxText: {fileID: 1913335384}
+  scoreText: {fileID: 1458974742}
 --- !u!1 &1465975590
 GameObject:
   m_ObjectHideFlags: 0

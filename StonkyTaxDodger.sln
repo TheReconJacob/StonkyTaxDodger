@@ -1,15 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0bdef6af-7ea9-6ca3-5d6b-4f637df45a12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "Scripts.csproj", "{1fb8b882-158d-2d14-f8af-15387d8b87bb}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dreamloscripts", "dreamloscripts.csproj", "{dd595c21-d749-4431-03e4-81d4c4aa56c0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests.csproj", "{9597b578-6c7b-0a8c-851b-25da68eb08c3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests.csproj", "{bec2d204-33ea-0803-8c06-06f2d2d7a173}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0bdef6af-7ea9-6ca3-5d6b-4f637df45a12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0bdef6af-7ea9-6ca3-5d6b-4f637df45a12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1fb8b882-158d-2d14-f8af-15387d8b87bb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1fb8b882-158d-2d14-f8af-15387d8b87bb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{dd595c21-d749-4431-03e4-81d4c4aa56c0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{dd595c21-d749-4431-03e4-81d4c4aa56c0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9597b578-6c7b-0a8c-851b-25da68eb08c3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9597b578-6c7b-0a8c-851b-25da68eb08c3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bec2d204-33ea-0803-8c06-06f2d2d7a173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bec2d204-33ea-0803-8c06-06f2d2d7a173}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

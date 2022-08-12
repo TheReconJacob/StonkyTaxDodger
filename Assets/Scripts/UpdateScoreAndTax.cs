@@ -10,12 +10,13 @@ public class UpdateScoreAndTax : MonoBehaviour
     public static bool isDead = false;
     public Text taxText;
     private float startingTax = 5000;
-    private Text scoreText;
+    public Text scoreText;
     
     void Awake()
     {
         scoreText = GetComponent<Text>();
         gameObject.SetActive(false);
+        
     }
     
     void Start()
